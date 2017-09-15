@@ -1,0 +1,6 @@
+[General]
+temp_format: celsius
+poll_interval: 10s
+
+[System]
+temp_command: ~
