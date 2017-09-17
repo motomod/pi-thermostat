@@ -4,3 +4,6 @@ general:
 
 system:
     temp_command: "echo $temp"
+
+web:
+    enabled: True
