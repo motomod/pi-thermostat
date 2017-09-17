@@ -1,9 +1,0 @@
-[general]
-temp_format: celsius
-poll_interval: 10s
-
-[system]
-temp_command: ~
-
-[web]
-enabled: True
