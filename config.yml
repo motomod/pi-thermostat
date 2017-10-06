@@ -1,10 +1,8 @@
-general:
-     temp_format: celsius
+temp:
+     format: celsius
      poll_interval: 10
-     logfile: temp.log
-
-system:
-    temp_command: "echo $temp"
+     logfile: log/temp.log
+     command: "echo 1"
 
 web:
     enabled: True
