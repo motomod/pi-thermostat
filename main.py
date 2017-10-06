@@ -11,6 +11,7 @@ logger.log(config["temp"])
 
 
 
+if config["web"]["enabled"] != True:
+    http.run(config["web"])
 
-http.run(config["web"])
-print('poo')
+print('Started')

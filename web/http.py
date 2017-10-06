@@ -2,9 +2,6 @@ from flask import Flask
 from flask import render_template
 
 def run(config):
-    if config["enabled"] != True:
-	return
-
     print "web started"
 
     app = Flask(__name__)
